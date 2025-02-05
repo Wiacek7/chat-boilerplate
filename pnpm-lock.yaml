@@ -13,10 +13,10 @@ importers:
         version: 0.0.17(@tanstack/query-core@5.66.0)(@tanstack/react-query@5.66.0(react@19.0.0))(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(bufferutil@4.0.9)(graphql@16.10.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@3.4.17)(typescript@5.7.3)(utf-8-validate@5.0.10)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@bitte-ai/react':
         specifier: 0.6.6-beta-prerelease.40
-        version: 0.6.6-beta-prerelease.40(bn.js@5.2.1)(borsh@1.0.0)(graphql@16.10.0)(near-api-js@5.0.1)
+        version: 0.6.6-beta-prerelease.40(bn.js@5.2.1)(borsh@1.0.0)(graphql@16.10.0)(near-api-js@4.0.3)
       '@near-wallet-selector/modal-ui':
         specifier: latest
-        version: 8.9.16(near-api-js@5.0.1)
+        version: 8.9.16(near-api-js@4.0.3)
       '@radix-ui/react-dropdown-menu':
         specifier: latest
         version: 2.1.5(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -4454,15 +4454,15 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@bitte-ai/react@0.6.6-beta-prerelease.40(bn.js@5.2.1)(borsh@1.0.0)(graphql@16.10.0)(near-api-js@5.0.1)':
+  '@bitte-ai/react@0.6.6-beta-prerelease.40(bn.js@5.2.1)(borsh@1.0.0)(graphql@16.10.0)(near-api-js@4.0.3)':
     dependencies:
       '@bitte-ai/wallet': 0.6.6-beta-prerelease.6
       '@mintbase-js/data': 0.6.5(graphql@16.10.0)
       '@mintbase-js/sdk': 0.6.5
-      '@near-wallet-selector/core': 8.9.16(near-api-js@5.0.1)
-      '@near-wallet-selector/here-wallet': 8.9.16(bn.js@5.2.1)(borsh@1.0.0)(near-api-js@5.0.1)
+      '@near-wallet-selector/core': 8.9.16(near-api-js@4.0.3)
+      '@near-wallet-selector/here-wallet': 8.9.16(bn.js@5.2.1)(borsh@1.0.0)(near-api-js@4.0.3)
       '@near-wallet-selector/meteor-wallet': 8.9.16
-      '@near-wallet-selector/modal-ui': 8.9.16(near-api-js@5.0.1)
+      '@near-wallet-selector/modal-ui': 8.9.16(near-api-js@4.0.3)
       '@near-wallet-selector/my-near-wallet': 8.9.16
       buffer: 6.0.3
       react: 19.0.0
@@ -5365,10 +5365,10 @@ snapshots:
       near-api-js: 5.0.1
       rxjs: 7.8.1
 
-  '@near-wallet-selector/here-wallet@8.9.16(bn.js@5.2.1)(borsh@1.0.0)(near-api-js@5.0.1)':
+  '@near-wallet-selector/here-wallet@8.9.16(bn.js@5.2.1)(borsh@1.0.0)(near-api-js@4.0.3)':
     dependencies:
       '@here-wallet/core': 3.3.1(bn.js@5.2.1)(borsh@1.0.0)
-      '@near-wallet-selector/core': 8.9.16(near-api-js@5.0.1)
+      '@near-wallet-selector/core': 8.9.16(near-api-js@4.0.3)
     transitivePeerDependencies:
       - bn.js
       - borsh
@@ -5383,9 +5383,9 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@near-wallet-selector/modal-ui@8.9.16(near-api-js@5.0.1)':
+  '@near-wallet-selector/modal-ui@8.9.16(near-api-js@4.0.3)':
     dependencies:
-      '@near-wallet-selector/core': 8.9.16(near-api-js@5.0.1)
+      '@near-wallet-selector/core': 8.9.16(near-api-js@4.0.3)
       copy-to-clipboard: 3.3.3
       qrcode: 1.5.4
       react: 18.2.0
