@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Youbuidl Agent",
-  description: "Youbuidl chat powered by Bitte",
+  description: "Youbuidl agent powered by Bitte",
 };
 
 export default function RootLayout({
