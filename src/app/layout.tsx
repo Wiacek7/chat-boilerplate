@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bitte AI Chat Boilerplate",
-  description: "Bite AI Chat Boilerplate",
+  title: "Youbuidl Agent",
+  description: "Youbuidl chat powered by Bitte",
 };
 
 export default function RootLayout({

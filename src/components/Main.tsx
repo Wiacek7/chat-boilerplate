@@ -8,7 +8,7 @@ import WelcomeMessage from "./WelcomeMessage";
 
 const bitteAgent = {
   id: "bitte-assistant",
-  name: "Bitte Assistant",
+  name: "",
   description:
     "Bitte assistant for interacting with NFTs and Fungible Tokens (FTs) on NEAR Protocol.  Users can query, mint, transfer NFTs, transfer FTs, create drops, and swap tokens.",
   verified: true,
