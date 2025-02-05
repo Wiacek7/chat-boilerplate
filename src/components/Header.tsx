@@ -13,13 +13,13 @@ const Header: React.FC = () => {
       <Image
         src="/bitte-logo.svg"
         alt="Bitte logo"
-        width={112}
-        height={22}
+        width={16}
+        height={16}
         className="hidden md:block"
       />
       <Image
-        src="/bitte-symbol.svg"
-        alt="Bitte Symbol"
+        src="/bitte-logo.svg"
+        alt="Bitte logo"
         width={32}
         height={32}
         className="md:hidden"

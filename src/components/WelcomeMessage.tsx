@@ -11,7 +11,7 @@ const WelcomeMessage: React.FC = () => {
         height={40}
       />
       <h1 className="text-[20px] my-4 font-semibold">
-        Embedded Agents Example
+        Youbuidl Agents
       </h1>
       <p className="my-2 md:w-[290px]">
         Easily integrate this chat into your website, with your preferences.
