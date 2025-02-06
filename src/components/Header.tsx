@@ -18,8 +18,8 @@ const Header: React.FC = () => {
         className="hidden md:block"
       />
       <Image
-        src="/bitte-logo.svg"
-        alt="Bitte logo"
+        src="/bitte-symbol.svg"
+        alt="Bitte Symbol"
         width={32}
         height={32}
         className="md:hidden"
@@ -32,7 +32,12 @@ const Header: React.FC = () => {
             isConnected ? "hidden" : ""
           }`}
         />
-        
+        <a
+          href="mailto:paul@bitte.ai"
+          className="bg-[#27272A] text-[#FAFAFA] px-8 py-2 hover:bg-opacity-80 rounded-md font-medium h-[40px]"
+        >
+          Contact
+        </a>
       </div>
     </header>
   );

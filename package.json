@@ -13,12 +13,16 @@
     "@bitte-ai/react": "0.6.6-beta-prerelease.40",
     "@near-wallet-selector/modal-ui": "latest",
     "@radix-ui/react-dropdown-menu": "latest",
+    "@rainbow-me/rainbowkit": "^2.2.3",
+    "@reown/appkit": "^1.6.5",
     "clsx": "latest",
     "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwind-merge": "^2.6.0"
+    "tailwind-merge": "^2.6.0",
+    "viem": "^2.22.21",
+    "wagmi": "^2.14.9"
   },
   "devDependencies": {
     "@eslint/eslintrc": "latest",
